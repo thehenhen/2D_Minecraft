@@ -131,7 +131,7 @@ void printMap() {
       }
     }
   }
-  rectMode(CORNER);
+  rectMode(CORNER);  
 }
 
 void mouseDragged() {
@@ -168,16 +168,16 @@ void keyPressed() {
   }
   switch(keyCode) {
   case 37: //left
-    tranX+=5;
+    tranX+=10;
     break;
   case 39: //right
-    tranX-=5;
+    tranX-=10;
     break;
   case 65: //left
-    tranX+=5;
+    tranX+=10;
     break;
   case 68: //right
-    tranX-=5;
+    tranX-=10;
     break;
   }
 }
